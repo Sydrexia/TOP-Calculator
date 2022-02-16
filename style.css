@@ -1,0 +1,59 @@
+/* Overall Calculator Styles */
+.calculator {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    margin: 200px;
+    padding: 125px;
+    justify-content: center;
+}
+
+.calculator button {
+    border: 2px solid black;
+}
+
+/* Screen Styles */
+.screenbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+    width: 300px;
+    border: 2px solid red;
+    margin: auto;
+}
+
+.screen {
+    margin: auto;
+}
+
+/* Row Styles */
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 300px;
+    border: 2px solid red;
+    margin: auto;
+}
+
+.row div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row button {
+    margin: auto;
+    /* margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px; */
+    height: 30px;
+    width: 30px;
+}
+
+.row button:hover {
+    height: 40px;
+    width: 40px;
+}
